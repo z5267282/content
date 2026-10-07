@@ -4,8 +4,6 @@ date: 2025-07-05
 description: Class-qualification is mandatory in implementation files
 ---
 
-# Class-Name Qualification
-
 In C++ when you implement a class in a `.cpp` file you must qualify the class name.
 
 ```cpp
