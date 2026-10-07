@@ -1,4 +1,8 @@
-# A Discrepancy Between the find command regex flag and grep
+---
+title: Find Regex Discrepancy
+date: 2026-02-25
+description: A Discrepancy Between the find command regex flag and grep
+---
 
 I was trying to select these two files which were yet to be committed in my git repo.
 

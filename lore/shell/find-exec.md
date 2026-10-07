@@ -1,11 +1,15 @@
-# Overview
+---
+title: Find Exec
+date: 2024-08-22
+description: How to use the find shell command with the exec flag.
+---
 
 This blog covers how to use the `find` shell command.  
 It is very useful for running a shell command on multiple files matching a certain filter.
 
-# Options
+## Options
 
-## 1. Aggregate Files
+### 1. Aggregate Files
 
 ```sh
 find -exec command {} +
@@ -18,7 +22,7 @@ This can be roughly translated in Shell like so.
 command {1} {2} ... {n}
 ```
 
-## 2. Individually Run
+### 2. Individually Run
 
 ```sh
 find -exec command \;`
@@ -38,6 +42,6 @@ The `;` character is a delimeter to the `-exec` flag.
 We can't type raw `;` because the shell will interpret it first.  
 Hence we need to escape it - `\;`.
 
-# Sources
+## Sources
 
 1. [baeldung](https://www.baeldung.com/linux/find-exec-command)
