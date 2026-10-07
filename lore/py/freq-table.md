@@ -1,3 +1,9 @@
+---
+title: Freq Table
+date: 2025-09-03
+description: Idiomatic creation of character frequency tables
+---
+
 Use `string.ascii_lowercase` to easily build a frequency table of lowercase English letters.  
 This helps create easy iteration through all cased-characters since:
 
