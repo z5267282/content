@@ -1,3 +1,9 @@
+---
+title: Constructor No Return Type
+date: 2025-06-07
+description: Constructors don't have return types
+---
+
 # Overview
 
 Constructors have no return type, so how can you prematurely end one if you need to?
