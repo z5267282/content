@@ -1,4 +1,8 @@
-# Overview
+---
+title: Duplicate Folders in Shell Path
+date: 2024-08-22
+description: A solution to removing duplicate folders in Shell PATH
+---
 
 The folders in `$PATH` are getting duplicated.  
 I am trying to find out why.
@@ -10,7 +14,7 @@ Theories:
 | 1   | `.zshrc` is getting run twice             |
 | 2   | some other `zsh` file is running it twice |
 
-# Hunch
+## Hunch
 
 The issue is that certain folders are getting recorded twice.
 
@@ -20,7 +24,7 @@ The issue is that certain folders are getting recorded twice.
 
 These are only ever set in `~/.zshrc` so I know it is getting run twice.
 
-# Solution
+## Solution
 
 The following command can remove duplicate items from `$PATH`.
 
@@ -28,6 +32,6 @@ The following command can remove duplicate items from `$PATH`.
 typeset -U path
 ```
 
-# Sources
+## Sources
 
 1. [techctl](https://tech.serhatteker.com/post/2019-12/remove-duplicates-in-path-zsh/)

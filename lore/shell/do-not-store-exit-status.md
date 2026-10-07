@@ -1,4 +1,8 @@
-# Overview
+---
+title: Do Not Store Exit Status
+date: 2024-08-22
+description: A precaution on why storing exit statuses should be avoided
+---
 
 Do not store the exit status `$?` in a variable.  
 You will get this error:
@@ -7,7 +11,7 @@ You will get this error:
 read-only variable: status
 ```
 
-# Solution
+## Solution
 
 The alternative would be to use a `trap` command.
 
@@ -15,6 +19,6 @@ This sentiment is shared online \[1\].
 
 > I recommend against the use of $? as much as possible, as it is fragile and easy to overlook when refactoring
 
-# Sources
+## Sources
 
 1. [Stack Overflow](https://stackoverflow.com/questions/36921658/save-command-output-on-variable-and-check-exit-status)
