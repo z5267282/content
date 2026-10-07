@@ -4,9 +4,8 @@ date: 2026-10-07
 description: Interesting notes from reading Scott Meyer's book on CPP best practices
 ---
 
-## Overview
-
 Notes from reading Scott Meyer's "Effective Modern C++". It was a great book and a lot can be learnt from the text, largely in part due to Scott's helpful and clear writing style.
+
 ## Emplacement vs insertion in containers
 
 Use emplacement when you need to call a constructor to create a `T`. If you already have a `T`, emplacement is usually the same as regular insertion. Emplacement uses direct initialisation which can use constructors marked as `explicit`.
