@@ -1,4 +1,8 @@
-# Overview
+---
+title: Background Foreground
+date: 2024-12-21
+description: How to use the background and foreground utilities
+---
 
 Run `CTRL-Z` to send a running program \(like `vim file`\) and then run `fg` to get it back.
 
@@ -10,6 +14,6 @@ echo hi
 fg
 ```
 
-# Sources
+## Sources
 
 1. [Akamai Developer](https://www.youtube.com/watch?v=AVXYq8aL47Q&t=345s)

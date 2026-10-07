@@ -1,4 +1,8 @@
-# Overview
+---
+title: Bang Bang
+date: 2024-12-21
+description: A neat shell trick to refer to the last run command
+---
 
 `!!` refers to the last run command.
 
