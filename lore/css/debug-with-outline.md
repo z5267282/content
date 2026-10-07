@@ -1,3 +1,9 @@
+---
+title: Debug With Outline
+date: 2025-08-14
+description: How to debug CSS using the outline property
+---
+
 # Overview
 
 To debug CSS we can set the outline of all elements to be a certain colour.
