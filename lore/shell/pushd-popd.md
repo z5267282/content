@@ -1,8 +1,12 @@
-# Overview
+---
+title: Pushd Popd
+date: 2024-12-21
+description: A brief guide on how to use the pushd and popd commands
+---
 
 We can name recent folders with a stack-history rather than using `cd -`.
 
-# Example
+## Example
 
 ```sh
 $ pushd a
@@ -19,6 +23,6 @@ $ popd
 a
 ```
 
-# Sources
+## Sources
 
 1. [Akamai Developer](https://www.youtube.com/watch?v=AVXYq8aL47Q&t=217)

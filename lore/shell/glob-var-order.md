@@ -1,9 +1,13 @@
-# Overview
+---
+title: Glob Variable Order
+date: 2024-08-22
+description: Explaining the order of expansion with Shell globs and variables
+---
 
 In the Shell, variables are substituted and then globbing occurs.  
 This means that any glob characters should appear literally unquoted.
 
-# Example
+## Example
 
 Suppose there are these files.
 

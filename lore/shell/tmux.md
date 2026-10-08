@@ -1,10 +1,14 @@
-# Notes
+---
+title: Tmux
+date: 2024-12-21
+description: A brief guide on using tmux and some common commands
+---
 
 1. Enter `tmux` to start
 2. Cannot enter `Command + k` to clear screen
 3. Any command letter that is a shift-pressed key, must have shift pressed to work
 
-# Modifier
+## Modifier
 
 Press the modifier key and then a command letter.  
 In Zac's `.tmux.conf` this was `Control + a`.
@@ -13,9 +17,9 @@ In Zac's `.tmux.conf` this was `Control + a`.
 
 By default it is `Control + b`.  
 You have to release the modifier and then press the command letter as per this [guide](https://superuser.com/questions/266725/tmux-ctrlb-not-working).  
-This is a list of [default command letters](https://man.openbsd.org/tmux#DEFAULT_KEY_BINDINGS).
+This is a list of [default command letters](https://man.openbsd.org/tmux##DEFAULT_KEY_BINDINGS).
 
-# Windows
+## Windows
 
 They are more like tabs in a browser.
 
@@ -29,7 +33,7 @@ They are more like tabs in a browser.
 | n      | go to next window     |
 | x      | close window          |
 
-# Pane
+## Pane
 
 A window can be split into panes.  
 Panes are closed by `Control + d` or the command letter `x`.  
@@ -42,7 +46,7 @@ Can switch using arrow keys as the command letter or `o`.
 | z      | toggle pane as full size |
 | x      | close pane               |
 
-# Session
+## Session
 
 All open windows are saved in a session.
 Exiting is also referred to as **detatching**.
@@ -53,7 +57,7 @@ Exiting is also referred to as **detatching**.
 
 Sessions are 0-indexed.
 
-## Shell Commands
+#### Shell Commands
 
 Run these via `tmux` then provide the argument.
 
@@ -65,13 +69,13 @@ Run these via `tmux` then provide the argument.
 
 Running `tmux` will start tmux with a new session.
 
-# Configuration
+## Configuration
 
 The configuration file is stored in `~/.tmux.conf`.  
 When it is changed, `tmux` will automatically update in response.  
-However, if there are any running sessions, they must all be [exited first](https://unix.stackexchange.com/questions/66606/tmux-not-sourcing-my-tmux-conf#answer-66607).
+However, if there are any running sessions, they must all be [exited first](https://unix.stackexchange.com/questions/66606/tmux-not-sourcing-my-tmux-conf##answer-66607).
 
-# YouTube Guides
+## YouTube Guides
 
 | Title                                                                              |
 | ---------------------------------------------------------------------------------- |

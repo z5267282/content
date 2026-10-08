@@ -1,13 +1,17 @@
-# Overview
+---
+title: Git Squash After Pr
+date: 2025-08-17
+description: Understanding the warning for deleting branches that were squashed before merging
+---
 
 When squashing commits after a pull request into main, git will warn saying that the branch has not yet been merged in.
 
-## Recreation
+## Recreating the Warning
 
 ```sh
 # after squashing and merging on GitHub
 git checkout main
-git pull 
+git pull
 git branch -d feature
 ```
 

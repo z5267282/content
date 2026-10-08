@@ -1,4 +1,8 @@
-# Overview
+---
+title: Sort Lexicographic
+date: 2024-08-29
+description: A note on default sorting comparisons in JavaScript
+---
 
 The build-in `Array.sort` method sorts by lexicographic order, even for numbers.
 
@@ -11,7 +15,7 @@ assert(x[2] === 2);
 assert(x[3] === 20);
 ```
 
-# Fix
+## Fix
 
 A sorting function must be provided for numbers.
 

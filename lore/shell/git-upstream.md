@@ -1,4 +1,8 @@
-# Overview
+---
+title: Git Upstream
+date: 2024-08-22
+description: How to handle setting the upstream branch when making a fresh local branch
+---
 
 This problem shows up when making a fresh branch with `git checkout -b`.
 
@@ -12,7 +16,7 @@ To have this happen automatically for branches without a tracking
 upstream, see 'push.autoSetupRemote' in 'git help config'.
 ```
 
-# Solution
+## Solution
 
 We can run this command to always configure our local branch to link to a branch with the same name on the remote repository.
 
@@ -20,6 +24,6 @@ We can run this command to always configure our local branch to link to a branch
 git config --global --add --bool push.autoSetupRemote true
 ```
 
-# Sources
+## Sources
 
 1. [Stack Overflow](https://stackoverflow.com/questions/29422101/automatically-track-remote-branch-with-git)

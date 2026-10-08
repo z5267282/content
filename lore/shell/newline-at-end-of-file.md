@@ -1,4 +1,8 @@
-# Overview
+---
+title: Should Newlines be put at End of File?
+date: 2024-08-22
+description: Deciding on whether newlines should be put at the end of files
+---
 
 Should newlines be put at the end of a file?
 
@@ -15,7 +19,7 @@ It makes it easier to view the last line in an editor: the cursor will be not at
 
 When running `cat` on the file, an extra newline will get printed out.
 
-# Conclusion
+## Conclusion
 
 Yes a newline should be put in.  
 The `cat` command is for convenience viewing of files only.

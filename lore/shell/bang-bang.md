@@ -1,4 +1,8 @@
-# Overview
+---
+title: Bang Bang
+date: 2024-12-21
+description: A neat shell trick to refer to the last run command
+---
 
 `!!` refers to the last run command.
 
@@ -8,6 +12,6 @@ sudo !! # this is the same as
 sudo echo hello
 ```
 
-# Sources
+## Sources
 
 1. [Akamai Developer](https://youtu.be/AVXYq8aL47Q?si=pSpSXghvq-Vq5P7p&t=524)

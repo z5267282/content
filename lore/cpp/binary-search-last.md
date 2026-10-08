@@ -1,4 +1,8 @@
-# Overview
+---
+title: Binary Search Last
+date: 2024-08-22
+description: How to binary search for the last element that satisfies a condition
+---
 
 The `upper_bound` and `lower_bound` functions give iterators to the first element matching a condition.  
 It is possible to change the behaviour so that the last position is instead returned.

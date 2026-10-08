@@ -1,4 +1,8 @@
-# Overview
+---
+title: Git Reset
+date: 2024-08-27
+description: How to use git reset
+---
 
 The command `git reset` is the opposite of `git add`.  
 It allows you to remove a file from the staging area in stage 2 here.

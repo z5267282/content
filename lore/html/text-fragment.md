@@ -1,4 +1,8 @@
-# Overview
+---
+title: Text Fragment
+date: 2024-12-21
+description: An explanation of text fragments in web pages
+---
 
 Text fragments offer a way to direct to a specific spot in an HTML file.  
 The documentation from MDM is [here](https://developer.mozilla.org/en-US/docs/Web/URI/Fragment/Text_fragments#browser_compatibility).  
@@ -15,7 +19,7 @@ The fragment is captured in the url like so.
 https://docs.python.org/3/library/os.html#os.environ
 ```
 
-# Known Issues
+## Known Issues
 
 [Some browsers](https://meta.stackoverflow.com/questions/425878/link-to-a-specific-spot-in-a-stack-overflow-question-answer) support the ability to create fragments based on a selection of text.  
 However Firefox does not support this and the feature is prone to browser compatability issues in general.
