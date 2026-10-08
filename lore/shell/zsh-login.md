@@ -1,9 +1,13 @@
-# Overview
+---
+title: Zsh Login
+date: 2024-08-22
+description: Deciding which zsh file to update PATH in
+---
 
 I am trying to decide if `~/.zshrc` is the best place to put updates to `$PATH`.  
 Right now, putting modifications in `~/.zshrc` is resulting in duplicate folders.
 
-# Order of scripts
+## Order of scripts
 
 There are special scripts prefixed `z` in `/etc` and `~` which control the setup of the shell.  
 This is the order in which they are run.
@@ -19,18 +23,18 @@ There can be up to two copies of these files as per \[1\].
 1. The first run is in `/etc`. This is the default configuration.
 2. The second one is in `~`. This overwrites the corresponding `/etc` version.
 
-# Solution 1
+## Solution 1
 
 Source \[1\] recommends putting `$PATH` setup in `.zshenv`.
 
-# Solution 2
+## Solution 2
 
 Source \[2\] recommends putting them in `zprofile`.  
 The issue is that `/etc/zprofile` runs a script `path_helper`.  
 This script will **append** changes to `$PATH` made from `~/.zshenv`.  
 This is bad because we want our own changes to `$PATH` to be **prepended**.
 
-# Sources
+## Sources
 
 1. [Stack Exchange](https://apple.stackexchange.com/questions/388622/zsh-zprofile-zshrc-zlogin-what-goes-where)
 2. [Stack Exchange](https://apple.stackexchange.com/questions/432226/homebrew-path-set-in-zshenv-is-overridden)

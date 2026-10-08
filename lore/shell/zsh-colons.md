@@ -1,4 +1,8 @@
-# Overview
+---
+title: Zsh Colons
+date: 2024-08-29
+description: The interesting behaviour of colons in Shell expansion
+---
 
 Putting `:` and one of `ahl` changes the behaviour of a path expansion in `zsh`.
 
