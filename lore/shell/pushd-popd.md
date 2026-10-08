@@ -1,24 +1,30 @@
-# Overview
+---
+title: Pushd Popd
+date: 2024-12-21
+description: A brief guide on how to use the pushd and popd commands
+---
+
+## Overview
 
 We can name recent folders with a stack-history rather than using `cd -`.
 
-# Example
+## Example
 
 ```sh
 $ pushd a
-# now in a
+## now in a
 a
 $ pushd b
-# now in b
+## now in b
 b a
 $ pushd c
-# now in c
+## now in c
 c b a
 $ popd
-# now in b
+## now in b
 a
 ```
 
-# Sources
+## Sources
 
 1. [Akamai Developer](https://www.youtube.com/watch?v=AVXYq8aL47Q&t=217)
