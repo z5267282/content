@@ -1,8 +1,12 @@
-# Overview
+---
+title: Null Glob
+date: 2024-08-22
+description: How to enable globs to expand empty
+---
 
 The ability for an empty glob to return no results can be turned on.
 
-# Using setopt
+## Using setopt
 
 Use this Shell command.
 
@@ -10,7 +14,7 @@ Use this Shell command.
 setopt -s nullglob
 ```
 
-# The N Character
+## The N Character
 
 The `(N)` character can be used to mimic this behaviour.  
 Suppose there are these files.
@@ -23,7 +27,7 @@ c
 
 Then `echo fish*(N)` produces nothing as per \[1\].
 
-# Not Using Glob
+## Not Using Glob
 
 We can loop and manually break the loop if the literal glob gets returned from \[2\].
 
@@ -35,7 +39,7 @@ do
 done
 ```
 
-# Sources
+## Sources
 
 1. [Stack Exchange](https://unix.stackexchange.com/questions/26805/how-to-silently-get-an-empty-string-from-a-glob-pattern-with-no-matches).
 2. [Super User](https://superuser.com/questions/519374/how-to-handle-bash-matching-when-there-are-no-matches)

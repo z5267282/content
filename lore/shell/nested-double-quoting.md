@@ -1,7 +1,11 @@
-# Overview
+---
+title: Nested Double Quoting
+date: 2024-08-22
+description: Working with variables and nested quotes in Shell
+---
 
-There is no need to wrap variables expanded in subshells with double quotes.  
-As soon as you write one `""`, white spaces are preserved in variable expansions.  
+There is no need to wrap variables expanded in subshells with double quotes. As
+soon as you write one `""`, white spaces are preserved in variable expansions.  
 If you did then this should print out `0`:
 
 ```sh
