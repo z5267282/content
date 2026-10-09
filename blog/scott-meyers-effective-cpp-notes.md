@@ -161,6 +161,6 @@ auto bad2 = std::size_t(10.25) // compiles and narrowing conversion is performed
 
 Scott has a great sense of dry humour and he made sure to sprinkle a few gems throughout the book.
 
-> It's been said that the truth sale set you free, but under the right circumstances, a well-chosen lie can be quite liverating. ... Because we're dealing with software, however, let's eschew the word "lie" and instead say this Item comprises an "abstraction"
+> It's been said that the truth shall set you free, but under the right circumstances, a well-chosen lie can be quite liverating. ... Because we're dealing with software, however, let's eschew the word "lie" and instead say this Item comprises an "abstraction"
 
 > Poets and songwriters have a thing bout love. And sometimes about counting ... we might try to enumerate the reasons why a raw pointer is hard to love
